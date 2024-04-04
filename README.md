@@ -21,10 +21,11 @@
 
 ## <a id="setup"></a> 🐱 〢 Setting up
 1. Install [Python](https://www.python.org/ftp/python/3.10.0/python-3.12.2-amd64.exe)
-2. Install all requirements [install.bat]
-3. Click on Astral.exe [Astral.exe]
-4. Complete the configuration
-5. You have your .exe/.py file enjoy
+2. Install .Net 8.0 [.Net 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+4. Install all requirements [install.bat]
+5. Click on Astral.exe [Astral.exe]
+6. Complete the configuration
+7. You have your .exe/.py file enjoy
 
 
 
