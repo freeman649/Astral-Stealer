@@ -31,7 +31,7 @@
 
 ## <a id="features"></a>🐱 〢 Features
 ### 💲 = premium join discord ( Black Hole Stealer )
-# [JOIN TELEGRAM CHANNEL](https://discord.gg/5YbUhTkR5h)
+# [JOIN DISCORD](https://discord.gg/5YbUhTkR5h)
 
 ```diff
 > Default:
