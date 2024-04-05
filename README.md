@@ -108,11 +108,9 @@
 
 
 ## <a id="preview"></a>👁️ 〢 Preview
-![Injection](https://imgur.com/a/pFnvc6S)
-![Discord](https://imgur.com/a/d37L7Q9)
-![Builder]((https://imgur.com/a/9Tau2aJ))
-![Builder]((https://imgur.com/a/KJje0MY))
-![Builder]((https://imgur.com/a/1xukRsY))
+<div align="left"> 
+  <img src="https://i.imgur.com/t7RFvUj.png" alt="preview" />
+</div>
 
 
 ### <a id="forkedfrom"></a>🕵️‍♂️ 〢 Forked From:
