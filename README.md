@@ -112,7 +112,7 @@
 ![Discord](https://imgur.com/a/d37L7Q9)
 ![Builder]((https://imgur.com/a/9Tau2aJ))
 ![Builder]((https://imgur.com/a/KJje0MY))
-![Builder]((https://imgur.com/a/1xukRsY)))
+![Builder]((https://imgur.com/a/1xukRsY))
 
 
 ### <a id="forkedfrom"></a>🕵️‍♂️ 〢 Forked From:
