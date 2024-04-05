@@ -10,8 +10,8 @@
 
 
 ## <a id="content"></a>🌐 〢 Content
-- [🐱・Setting up](#setup)
-- [🐱・Features](#features)
+- [🕳️・Setting up](#setup)
+- [🕳️・Features](#features)
 - [👁️・Preview](#preview)
 - [📝・Changelog](#changelog)
 - [🦜・Injection](https://github.com/freeman649/assets-thief/blob/main/discord-inject.js)
@@ -19,7 +19,7 @@
 - [💼・Term](#terms)
 
 
-## <a id="setup"></a> 🐱 〢 Setting up
+## <a id="setup"></a> 🕳️ 〢 Setting up
 1. Install [Python](https://www.python.org/ftp/python/3.10.0/python-3.12.2-amd64.exe)
 2. Install .Net 8.0 [.Net 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 4. Install all requirements [install.bat]
@@ -30,7 +30,7 @@
 
 
 
-## <a id="features"></a>🐱 〢 Features
+## <a id="features"></a>🕳️ 〢 Features
 ### 💲 = premium join discord ( Black Hole Stealer )
 # [JOIN DISCORD](https://discord.gg/5YbUhTkR5h)
 
