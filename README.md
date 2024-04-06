@@ -20,7 +20,7 @@
 
 
 ## <a id="setup"></a> 🕳️ 〢 Setting up
-1. Install [Python](https://www.python.org/ftp/python/3.10.0/python-3.12.2-amd64.exe)
+1. Install [Python](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe)
 2. Install .Net 8.0 [.Net 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 4. Install all requirements [install.bat]
 5. Click on Astral.exe [Astral.exe]
