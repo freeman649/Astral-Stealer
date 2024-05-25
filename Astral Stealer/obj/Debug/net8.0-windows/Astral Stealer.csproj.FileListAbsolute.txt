@@ -21,3 +21,12 @@ G:\Project C#\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stea
 G:\Project C#\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.genruntimeconfig.cache
 G:\Project C#\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\ref\Astral Stealer.dll
 G:\Project C#\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral_Stealer.Properties.Resources.resources
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Astral Stealer.exe
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Astral Stealer.deps.json
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Astral Stealer.runtimeconfig.json
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Astral Stealer.dll
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Astral Stealer.pdb
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Guna.UI2.dll
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Newtonsoft.Json.dll
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\System.Management.dll
+G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\runtimes\win\lib\net7.0\System.Management.dll

@@ -124,7 +124,7 @@
   <data name="youtube.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABjJJREFUeF7tmvtvU2UYx4/gXwA/iaAZDDYckXgJ8RKJASFMWLyEhWCIosHJHAbi
+        DAAACwwBP0AiyAAABjJJREFUeF7tmvtvU2UYx4/gXwA/iaAZDDYckXgJ8RKJASFMWLyEhWCIosHJHAbi
         IhchzoSLiAET4yXOiBdYArt0Y9fu2rGu2xh4iWBEAxlQEn6hM4q/EDVfn+f1OfWc7l3PaU9hxZxP8knf
         7/u8bb/b2nVtZvj4+Pj4+Pj4+Lhg2msomr4Boell+IMukVVypzL0TCvDCqmbWe56FXvuLgNuBanrLqmd
         GXJLUTSrFJhZiuvk5rwyTJNR1sCdqNsW7shdc9Zn8JEwpwShvFcAutwiW1kLddzKXfNK0C1b3il4GdcK
@@ -156,7 +156,7 @@
   <data name="twitch.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABp1JREFUeF7tmg9slGcdx29O3dT4J3OJuk0xrEDpWih0QCkw1sgkYCTbAnFxikMC
+        DAAACwwBP0AiyAAABp1JREFUeF7tmg9slGcdx29O3dT4J3OJuk0xrEDpWih0QCkw1sgkYCTbAnFxikMC
         G4FEo3FiXGy2TN2UgJliYDJZZMNQ+/9Ku1KQf4VMVnUEsgV06Ww1TqeLmRp0Ln58fpfvS/fA43vve9Ae
         Xe6TfHL3fZ7f/Z7fy7V313CZEiVKlChRIj/XrGPBdesYdDJmXMvQtetYpEu4AJZx+bi1vPjRtTDWdHMP
         6ioKZ/zdLL5+DYxfwwuZDJdp+ZLHZjYVC2fiPbQ4mbiGr2ppTJCb2alYGJUr+cDk1bw2eRX/KV/Nh7Sc
@@ -190,7 +190,7 @@
   <data name="github.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAC8lJREFUeF7tmglUlWUax7Esm0ZbpubMTHOOjcomIgiIglm4gCgYphOOJu6KiqmJ
+        DAAACwwBP0AiyAAAC8lJREFUeF7tmglUlWUax7Esm0ZbpubMTHOOjcomIgiIglm4gCgYphOOJu6KiqmJ
         a2biqFO5omkYqVk5bojIctmFq3DBXNNyWlzG7eS4hFOjzeT6m+f9fDXwctmhOoffOf/zvd//XZ7n/e79
         lve7166eeuqpp556apc/jcbpTxGMahrByqcjyBEde3osl5qO5ZqSKhue1Ml+jGrbbCyOuvsvk2ZjcGse
         wWLZnpEtVVGzCE43H8MiNZYe9ucODRzGEOwwigKH0VBM5+xHsVE0ocVoAp1H4Nh0DI+7hPKgkiorT9XZ
@@ -246,7 +246,7 @@
   <data name="discord.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAACLxJREFUeF7tmXtQVOcZxmnTpDFNkzSamda7siCsXBZBAQVRjIIEiWIQL1wVd0GS
+        DAAACwwBP0AiyAAACLxJREFUeF7tmXtQVOcZxmnTpDFNkzSamda7siCsXBZBAQVRjIIEiWIQL1wVd0GS
         YrzEaGyJ1cTWpNWkxkvVNhoxQkHwttF656aNxlFrnTZtoOSPVKNVNGMUYnn6fMcXJIVldwEvzJzfzDPf
         Oc/3vu/3frvn7J6dddHR0dHR0dHR0dHRaRe6W9CteyYmdnsRK7u/iE+6ZeJrjsdcsvFdCbFL1wz0YI0v
         WeMyVcIay3pkIuYnZnSRkAeLXhnwpBb3zsDZ3jOA5tQnHaESbhfWmt9cDaqOc8c5LuzxElwl/H6B77iZ
