@@ -116,6 +116,11 @@ v1.5 ⋮ 2024-25-05
 + Custom Name
 + Webhook tester
 + Better obfuscator
+
+v1.6 ⋮ 2024-25-05
+- Builder bugs
+- back door that won't open
+- base64 encode error
 ```
 
 
