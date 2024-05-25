@@ -105,11 +105,17 @@
 
 
 ## <a id="changelog"></a>💭 〢 ChangeLog
-V1.5 new :
-better obfuscator
-custom name
-custom icon
-custom assembly
+
+```diff
+v1.5 ⋮ 2024-25-05
+- bug fix to launch the builder
+- Requirements file not found
+- build with pyinstaller fixed
++ Custom assembly
++ Custom Icon
++ Custom Name
++ Webhook tester
++ Better obfuscator
 
 
 ## <a id="preview"></a>👁️ 〢 Preview
