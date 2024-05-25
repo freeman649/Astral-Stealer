@@ -19,5 +19,5 @@ pypresence
 opencv-python
 subprocess.run
 pystyle
-
+wheel
 
