@@ -120,7 +120,7 @@ v1.5 ⋮ 2024-25-05
 v1.6 ⋮ 2024-25-05
 - Builder bugs
 - back door that won't open
-- base64 encode error
+- base64 encode error fix
 ```
 
 
