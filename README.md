@@ -105,6 +105,11 @@
 
 
 ## <a id="changelog"></a>💭 〢 ChangeLog
+V1.5 new :
+better obfuscator
+custom name
+custom icon
+custom assembly
 
 
 ## <a id="preview"></a>👁️ 〢 Preview
