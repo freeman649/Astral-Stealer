@@ -149,6 +149,7 @@ v1.6 ⋮ 2024-25-05
 ### Authors
 - [le_chat_blanc666.](https://github.com/freeman649/)
 
-
+### Donation for hard work
+ETH adresse : 0x2b97A321216D31aba58DB3144Bf8750276181d86
 
 <a href=#top>Back to Top</a></p>
