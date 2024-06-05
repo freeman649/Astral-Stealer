@@ -153,6 +153,7 @@
             label7 = new Label();
             guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            Enable_icon = new Guna.UI2.WinForms.Guna2CheckBox();
             guna2TabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -204,6 +205,7 @@
             // tabPage1
             // 
             tabPage1.BackColor = Color.FromArgb(36, 36, 36);
+            tabPage1.Controls.Add(Enable_icon);
             tabPage1.Controls.Add(ExeNameOutput);
             tabPage1.Controls.Add(IconSelector);
             tabPage1.Controls.Add(LinkToIcon);
@@ -1597,6 +1599,26 @@
             guna2CircleButton2.TabIndex = 17;
             guna2CircleButton2.Click += guna2CircleButton2_Click;
             // 
+            // Enable_icon
+            // 
+            Enable_icon.Animated = true;
+            Enable_icon.AutoSize = true;
+            Enable_icon.CheckedState.BorderColor = Color.FromArgb(192, 0, 0);
+            Enable_icon.CheckedState.BorderRadius = 3;
+            Enable_icon.CheckedState.BorderThickness = 0;
+            Enable_icon.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
+            Enable_icon.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Enable_icon.Location = new Point(13, 93);
+            Enable_icon.Name = "Enable_icon";
+            Enable_icon.Size = new Size(115, 24);
+            Enable_icon.TabIndex = 27;
+            Enable_icon.Text = "Enable Icon";
+            Enable_icon.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            Enable_icon.UncheckedState.BorderRadius = 3;
+            Enable_icon.UncheckedState.BorderThickness = 0;
+            Enable_icon.UncheckedState.FillColor = Color.FromArgb(125, 137, 149);
+            Enable_icon.CheckedChanged += Enable_icon_CheckedChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1703,5 +1725,6 @@
         private Guna.UI2.WinForms.Guna2Button IconSelector;
         private Guna.UI2.WinForms.Guna2TextBox LinkToIcon;
         private Guna.UI2.WinForms.Guna2TextBox ExeNameOutput;
+        private Guna.UI2.WinForms.Guna2CheckBox Enable_icon;
     }
 }
