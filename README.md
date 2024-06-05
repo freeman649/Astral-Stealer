@@ -121,6 +121,9 @@ v1.6 ⋮ 2024-25-05
 - Builder bugs
 - back door that won't open
 - base64 encode error fix
+
+v1.7 ⋮ 2024-05-06
+- Icon compilation error
 ```
 
 
