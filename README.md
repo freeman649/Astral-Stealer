@@ -32,7 +32,7 @@
 
 ## <a id="features"></a>🕳️ 〢 Features
 ### 💲 = premium join discord ( Piro Sentinel )
-# [JOIN DISCORD](https://discord.gg/5YbUhTkR5h)
+# [JOIN DISCORD](https://discord.gg/6wqNWCuwnT))
 
 ```diff
 > Default:
