@@ -153,10 +153,10 @@ v1.7 ⋮ 2024-05-06
 - [le_chat_blanc666.](https://github.com/freeman649/)
 
 ### Donation for hard work
-ETH adresse : 0x2b97A321216D31aba58DB3144Bf8750276181d86
-BTC adresse : bc1qvltjz8ulctrv0wh80vfn89q33w9x026n7pqxxp
-USDT adresse : 0xB843B41Fe446c44e843CF328e7130ffE0B573C3D
-LTC adresse : LbhJziyAgjGXaNgpemy4TRz5Typ2drdDGH
+- ETH adresse : 0x2b97A321216D31aba58DB3144Bf8750276181d86
+- BTC adresse : bc1qvltjz8ulctrv0wh80vfn89q33w9x026n7pqxxp
+- USDT adresse : 0xB843B41Fe446c44e843CF328e7130ffE0B573C3D
+- LTC adresse : LbhJziyAgjGXaNgpemy4TRz5Typ2drdDGH
 
 
 <a href=#top>Back to Top</a></p>
