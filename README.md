@@ -6,7 +6,7 @@
 
 
 
-##### [Join for premium](https://discord.gg/5YbUhTkR5h)
+##### [Join for premium](https://discord.gg/bFYcmjbFdw)
 
 
 ## <a id="content"></a>🌐 〢 Content
