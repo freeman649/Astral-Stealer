@@ -32,8 +32,8 @@
 
 ## <a id="features"></a>🕳️ 〢 Features
 ### 💲 = premium join discord or telegram ( Piro Sentinel )
-# [JOIN DISCORD](https://discord.gg/bFYcmjbFdw)
-# [JOIN TELEGRAM](https://t.me/Piro_Sentinel)
+# [JOIN DISCORD](https://discord.gg/bFYcmjbFdw) [JOIN TELEGRAM](https://t.me/Piro_Sentinel)
+
 
 ```diff
 > Default:
