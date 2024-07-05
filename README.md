@@ -5,7 +5,7 @@
 
 
 
-
+# The stealer code is obsolete. Please join the Discord because everything is now handled by a bot. If you want to get the latest version of Astral, join the Discord.
 ##### [Join for premium](https://discord.gg/bFYcmjbFdw)
 
 
