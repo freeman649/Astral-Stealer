@@ -14,7 +14,6 @@
 - [🕳️・Features](#features)
 - [👁️・Preview](#preview)
 - [📝・Changelog](#changelog)
-- [🦜・Injection](https://github.com/freeman649/assets-thief/blob/main/discord-inject.js)
 - [🕵️‍♂️・Credits](#forkedfrom)
 - [💼・Term](#terms)
 
