@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -73,16 +71,26 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
+            tabPage6 = new TabPage();
+            label21 = new Label();
+            label17 = new Label();
+            pictureBox2 = new PictureBox();
+            label16 = new Label();
             tabPage1 = new TabPage();
+            Enable_icon = new Guna.UI2.WinForms.Guna2CheckBox();
             ExeNameOutput = new Guna.UI2.WinForms.Guna2TextBox();
             IconSelector = new Guna.UI2.WinForms.Guna2Button();
             LinkToIcon = new Guna.UI2.WinForms.Guna2TextBox();
@@ -116,6 +124,7 @@
             _ETH_address_Options = new Guna.UI2.WinForms.Guna2TextBox();
             BTC_address_Options = new Guna.UI2.WinForms.Guna2TextBox();
             tabPage3 = new TabPage();
+            label18 = new Label();
             _GetBrowsers_Options = new Guna.UI2.WinForms.Guna2CheckBox();
             AntiVirus_Options = new Guna.UI2.WinForms.Guna2CheckBox();
             _Games_Options = new Guna.UI2.WinForms.Guna2CheckBox();
@@ -128,6 +137,7 @@
             Telegram_Options = new Guna.UI2.WinForms.Guna2CheckBox();
             Crypto_Options = new Guna.UI2.WinForms.Guna2CheckBox();
             tabPage4 = new TabPage();
+            label19 = new Label();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -139,6 +149,7 @@
             compil = new Guna.UI2.WinForms.Guna2CheckBox();
             encryption = new Guna.UI2.WinForms.Guna2CheckBox();
             tabPage5 = new TabPage();
+            label20 = new Label();
             label14 = new Label();
             youtube = new Guna.UI2.WinForms.Guna2CircleButton();
             twitch = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -150,16 +161,19 @@
             label10 = new Label();
             label9 = new Label();
             label8 = new Label();
-            label7 = new Label();
             guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            Enable_icon = new Guna.UI2.WinForms.Guna2CheckBox();
+            pictureBox1 = new PictureBox();
+            Switch_cinna_theme = new Guna.UI2.WinForms.Guna2Button();
             guna2TabControl1.SuspendLayout();
+            tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             tabPage3.SuspendLayout();
             tabPage4.SuspendLayout();
             tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -172,6 +186,7 @@
             // guna2TabControl1
             // 
             guna2TabControl1.Alignment = TabAlignment.Left;
+            guna2TabControl1.Controls.Add(tabPage6);
             guna2TabControl1.Controls.Add(tabPage1);
             guna2TabControl1.Controls.Add(tabPage2);
             guna2TabControl1.Controls.Add(tabPage3);
@@ -185,22 +200,78 @@
             guna2TabControl1.Size = new Size(828, 469);
             guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty;
             guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(43, 43, 43);
-            guna2TabControl1.TabButtonHoverState.Font = new Font("Comic Sans MS", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            guna2TabControl1.TabButtonHoverState.Font = new Font("Arial Black", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             guna2TabControl1.TabButtonHoverState.ForeColor = Color.White;
             guna2TabControl1.TabButtonHoverState.InnerColor = Color.FromArgb(43, 43, 43);
             guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty;
             guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(43, 43, 43);
-            guna2TabControl1.TabButtonIdleState.Font = new Font("Comic Sans MS", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            guna2TabControl1.TabButtonIdleState.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             guna2TabControl1.TabButtonIdleState.ForeColor = Color.FromArgb(156, 160, 167);
             guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(49, 49, 49);
             guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty;
             guna2TabControl1.TabButtonSelectedState.FillColor = Color.FromArgb(52, 52, 52);
-            guna2TabControl1.TabButtonSelectedState.Font = new Font("Comic Sans MS", 12.75F, FontStyle.Bold | FontStyle.Italic);
+            guna2TabControl1.TabButtonSelectedState.Font = new Font("Arial Black", 12.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             guna2TabControl1.TabButtonSelectedState.ForeColor = Color.White;
-            guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(192, 0, 0);
+            guna2TabControl1.TabButtonSelectedState.InnerColor = Color.BlueViolet;
             guna2TabControl1.TabButtonSize = new Size(180, 60);
             guna2TabControl1.TabIndex = 0;
             guna2TabControl1.TabMenuBackColor = Color.FromArgb(43, 43, 43);
+            // 
+            // tabPage6
+            // 
+            tabPage6.BackColor = Color.FromArgb(36, 36, 36);
+            tabPage6.Controls.Add(label21);
+            tabPage6.Controls.Add(label17);
+            tabPage6.Controls.Add(pictureBox2);
+            tabPage6.Controls.Add(label16);
+            tabPage6.Location = new Point(184, 4);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Size = new Size(640, 461);
+            tabPage6.TabIndex = 5;
+            tabPage6.Text = "Welcome";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Arial Black", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label21.ForeColor = Color.White;
+            label21.Location = new Point(3, 433);
+            label21.Name = "label21";
+            label21.Size = new Size(52, 23);
+            label21.TabIndex = 3;
+            label21.Text = "V.1.8";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Arial Black", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label17.ForeColor = Color.White;
+            label17.Location = new Point(499, 415);
+            label17.Name = "label17";
+            label17.Size = new Size(138, 41);
+            label17.TabIndex = 2;
+            label17.Text = "///////////////";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(258, 208);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(85, 81);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 1;
+            pictureBox2.TabStop = false;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Arial Black", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label16.ForeColor = Color.White;
+            label16.Location = new Point(101, 121);
+            label16.Name = "label16";
+            label16.Size = new Size(404, 38);
+            label16.TabIndex = 0;
+            label16.Text = "Welcome to Astral Stealer";
             // 
             // tabPage1
             // 
@@ -236,12 +307,33 @@
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Setting";
             // 
+            // Enable_icon
+            // 
+            Enable_icon.Animated = true;
+            Enable_icon.AutoSize = true;
+            Enable_icon.CheckedState.BorderColor = Color.FromArgb(192, 0, 0);
+            Enable_icon.CheckedState.BorderRadius = 3;
+            Enable_icon.CheckedState.BorderThickness = 0;
+            Enable_icon.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
+            Enable_icon.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Enable_icon.ForeColor = Color.White;
+            Enable_icon.Location = new Point(13, 93);
+            Enable_icon.Name = "Enable_icon";
+            Enable_icon.Size = new Size(126, 26);
+            Enable_icon.TabIndex = 27;
+            Enable_icon.Text = "Enable Icon";
+            Enable_icon.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            Enable_icon.UncheckedState.BorderRadius = 3;
+            Enable_icon.UncheckedState.BorderThickness = 0;
+            Enable_icon.UncheckedState.FillColor = Color.FromArgb(125, 137, 149);
+            Enable_icon.CheckedChanged += Enable_icon_CheckedChanged;
+            // 
             // ExeNameOutput
             // 
             ExeNameOutput.Animated = true;
             ExeNameOutput.BorderColor = Color.FromArgb(49, 49, 49);
             ExeNameOutput.BorderRadius = 6;
-            ExeNameOutput.CustomizableEdges = customizableEdges3;
+            ExeNameOutput.CustomizableEdges = customizableEdges5;
             ExeNameOutput.DefaultText = "";
             ExeNameOutput.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             ExeNameOutput.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -257,7 +349,7 @@
             ExeNameOutput.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             ExeNameOutput.PlaceholderText = "Enter your backdoor name";
             ExeNameOutput.SelectedText = "";
-            ExeNameOutput.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            ExeNameOutput.ShadowDecoration.CustomizableEdges = customizableEdges6;
             ExeNameOutput.Size = new Size(266, 36);
             ExeNameOutput.TabIndex = 26;
             ExeNameOutput.TextChanged += ExeNameOutput_TextChanged;
@@ -267,17 +359,17 @@
             IconSelector.Animated = true;
             IconSelector.BorderRadius = 6;
             IconSelector.Cursor = Cursors.Hand;
-            IconSelector.CustomizableEdges = customizableEdges5;
+            IconSelector.CustomizableEdges = customizableEdges7;
             IconSelector.DisabledState.BorderColor = Color.DarkGray;
             IconSelector.DisabledState.CustomBorderColor = Color.DarkGray;
             IconSelector.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             IconSelector.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             IconSelector.FillColor = Color.FromArgb(90, 90, 90);
-            IconSelector.Font = new Font("MV Boli", 11.9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            IconSelector.Font = new Font("Arial Black", 12F, FontStyle.Bold | FontStyle.Italic);
             IconSelector.ForeColor = Color.White;
             IconSelector.Location = new Point(510, 52);
             IconSelector.Name = "IconSelector";
-            IconSelector.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            IconSelector.ShadowDecoration.CustomizableEdges = customizableEdges8;
             IconSelector.Size = new Size(117, 36);
             IconSelector.TabIndex = 25;
             IconSelector.Text = "Icon";
@@ -288,7 +380,7 @@
             LinkToIcon.Animated = true;
             LinkToIcon.BorderColor = Color.FromArgb(49, 49, 49);
             LinkToIcon.BorderRadius = 6;
-            LinkToIcon.CustomizableEdges = customizableEdges7;
+            LinkToIcon.CustomizableEdges = customizableEdges9;
             LinkToIcon.DefaultText = "";
             LinkToIcon.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             LinkToIcon.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -304,7 +396,7 @@
             LinkToIcon.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             LinkToIcon.PlaceholderText = "Enter your icon";
             LinkToIcon.SelectedText = "";
-            LinkToIcon.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            LinkToIcon.ShadowDecoration.CustomizableEdges = customizableEdges10;
             LinkToIcon.Size = new Size(491, 36);
             LinkToIcon.TabIndex = 24;
             LinkToIcon.TextChanged += LinkToIcon_TextChanged;
@@ -312,11 +404,11 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Font = new Font("Comic Sans MS", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label15.ForeColor = SystemColors.ControlLight;
             label15.Location = new Point(288, 99);
             label15.Name = "label15";
-            label15.Size = new Size(122, 21);
+            label15.Size = new Size(131, 22);
             label15.TabIndex = 23;
             label15.Text = "Assembly Info ";
             // 
@@ -325,17 +417,17 @@
             TestWebhook.Animated = true;
             TestWebhook.BorderRadius = 6;
             TestWebhook.Cursor = Cursors.Hand;
-            TestWebhook.CustomizableEdges = customizableEdges9;
+            TestWebhook.CustomizableEdges = customizableEdges11;
             TestWebhook.DisabledState.BorderColor = Color.DarkGray;
             TestWebhook.DisabledState.CustomBorderColor = Color.DarkGray;
             TestWebhook.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             TestWebhook.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             TestWebhook.FillColor = Color.FromArgb(90, 90, 90);
-            TestWebhook.Font = new Font("MV Boli", 11.9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            TestWebhook.Font = new Font("Arial Black", 12F, FontStyle.Bold | FontStyle.Italic);
             TestWebhook.ForeColor = Color.White;
             TestWebhook.Location = new Point(510, 10);
             TestWebhook.Name = "TestWebhook";
-            TestWebhook.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            TestWebhook.ShadowDecoration.CustomizableEdges = customizableEdges12;
             TestWebhook.Size = new Size(117, 36);
             TestWebhook.TabIndex = 22;
             TestWebhook.Text = "Send Test";
@@ -346,7 +438,7 @@
             ProductVersion.Animated = true;
             ProductVersion.BorderColor = Color.FromArgb(49, 49, 49);
             ProductVersion.BorderRadius = 6;
-            ProductVersion.CustomizableEdges = customizableEdges11;
+            ProductVersion.CustomizableEdges = customizableEdges13;
             ProductVersion.DefaultText = "";
             ProductVersion.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             ProductVersion.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -362,7 +454,7 @@
             ProductVersion.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             ProductVersion.PlaceholderText = "Enter Product Version here";
             ProductVersion.SelectedText = "";
-            ProductVersion.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            ProductVersion.ShadowDecoration.CustomizableEdges = customizableEdges14;
             ProductVersion.Size = new Size(339, 36);
             ProductVersion.TabIndex = 21;
             ProductVersion.TextChanged += ProductVersion_TextChanged;
@@ -372,7 +464,7 @@
             FileDescription.Animated = true;
             FileDescription.BorderColor = Color.FromArgb(49, 49, 49);
             FileDescription.BorderRadius = 6;
-            FileDescription.CustomizableEdges = customizableEdges13;
+            FileDescription.CustomizableEdges = customizableEdges15;
             FileDescription.DefaultText = "";
             FileDescription.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             FileDescription.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -388,7 +480,7 @@
             FileDescription.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             FileDescription.PlaceholderText = "Enter File Description here";
             FileDescription.SelectedText = "";
-            FileDescription.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            FileDescription.ShadowDecoration.CustomizableEdges = customizableEdges16;
             FileDescription.Size = new Size(339, 36);
             FileDescription.TabIndex = 20;
             FileDescription.TextChanged += FileDescription_TextChanged;
@@ -398,7 +490,7 @@
             FileVersion.Animated = true;
             FileVersion.BorderColor = Color.FromArgb(49, 49, 49);
             FileVersion.BorderRadius = 6;
-            FileVersion.CustomizableEdges = customizableEdges15;
+            FileVersion.CustomizableEdges = customizableEdges17;
             FileVersion.DefaultText = "";
             FileVersion.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             FileVersion.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -414,7 +506,7 @@
             FileVersion.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             FileVersion.PlaceholderText = "Enter File Version here";
             FileVersion.SelectedText = "";
-            FileVersion.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            FileVersion.ShadowDecoration.CustomizableEdges = customizableEdges18;
             FileVersion.Size = new Size(339, 36);
             FileVersion.TabIndex = 19;
             FileVersion.TextChanged += FileVersion_TextChanged;
@@ -424,7 +516,7 @@
             InternalName.Animated = true;
             InternalName.BorderColor = Color.FromArgb(49, 49, 49);
             InternalName.BorderRadius = 6;
-            InternalName.CustomizableEdges = customizableEdges17;
+            InternalName.CustomizableEdges = customizableEdges19;
             InternalName.DefaultText = "";
             InternalName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             InternalName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -440,7 +532,7 @@
             InternalName.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             InternalName.PlaceholderText = "Enter Internal Name here";
             InternalName.SelectedText = "";
-            InternalName.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            InternalName.ShadowDecoration.CustomizableEdges = customizableEdges20;
             InternalName.Size = new Size(339, 36);
             InternalName.TabIndex = 18;
             InternalName.TextChanged += InternalName_TextChanged;
@@ -450,7 +542,7 @@
             InternalName2.Animated = true;
             InternalName2.BorderColor = Color.FromArgb(49, 49, 49);
             InternalName2.BorderRadius = 6;
-            InternalName2.CustomizableEdges = customizableEdges19;
+            InternalName2.CustomizableEdges = customizableEdges21;
             InternalName2.DefaultText = "";
             InternalName2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             InternalName2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -466,7 +558,7 @@
             InternalName2.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             InternalName2.PlaceholderText = "Enter Internal Name here";
             InternalName2.SelectedText = "";
-            InternalName2.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            InternalName2.ShadowDecoration.CustomizableEdges = customizableEdges22;
             InternalName2.Size = new Size(339, 36);
             InternalName2.TabIndex = 17;
             InternalName2.TextChanged += InternalName2_TextChanged;
@@ -476,7 +568,7 @@
             OriginalFilename.Animated = true;
             OriginalFilename.BorderColor = Color.FromArgb(49, 49, 49);
             OriginalFilename.BorderRadius = 6;
-            OriginalFilename.CustomizableEdges = customizableEdges21;
+            OriginalFilename.CustomizableEdges = customizableEdges23;
             OriginalFilename.DefaultText = "";
             OriginalFilename.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             OriginalFilename.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -492,7 +584,7 @@
             OriginalFilename.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             OriginalFilename.PlaceholderText = "Enter Original Filename here";
             OriginalFilename.SelectedText = "";
-            OriginalFilename.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            OriginalFilename.ShadowDecoration.CustomizableEdges = customizableEdges24;
             OriginalFilename.Size = new Size(339, 36);
             OriginalFilename.TabIndex = 16;
             OriginalFilename.TextChanged += OriginalFilename_TextChanged;
@@ -502,7 +594,7 @@
             ProductName.Animated = true;
             ProductName.BorderColor = Color.FromArgb(49, 49, 49);
             ProductName.BorderRadius = 6;
-            ProductName.CustomizableEdges = customizableEdges23;
+            ProductName.CustomizableEdges = customizableEdges25;
             ProductName.DefaultText = "";
             ProductName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             ProductName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -518,7 +610,7 @@
             ProductName.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             ProductName.PlaceholderText = "Enter Product Name here";
             ProductName.SelectedText = "";
-            ProductName.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            ProductName.ShadowDecoration.CustomizableEdges = customizableEdges26;
             ProductName.Size = new Size(339, 36);
             ProductName.TabIndex = 15;
             ProductName.TextChanged += ProductName_TextChanged;
@@ -528,7 +620,7 @@
             CompanyName.Animated = true;
             CompanyName.BorderColor = Color.FromArgb(49, 49, 49);
             CompanyName.BorderRadius = 6;
-            CompanyName.CustomizableEdges = customizableEdges25;
+            CompanyName.CustomizableEdges = customizableEdges27;
             CompanyName.DefaultText = "";
             CompanyName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             CompanyName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -544,7 +636,7 @@
             CompanyName.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             CompanyName.PlaceholderText = "Enter Company here";
             CompanyName.SelectedText = "";
-            CompanyName.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            CompanyName.ShadowDecoration.CustomizableEdges = customizableEdges28;
             CompanyName.Size = new Size(339, 36);
             CompanyName.TabIndex = 14;
             CompanyName.TextChanged += CompanyName_TextChanged;
@@ -557,10 +649,11 @@
             Debugger_Options.CheckedState.BorderRadius = 3;
             Debugger_Options.CheckedState.BorderThickness = 0;
             Debugger_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Debugger_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Debugger_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Debugger_Options.ForeColor = Color.White;
             Debugger_Options.Location = new Point(13, 195);
             Debugger_Options.Name = "Debugger_Options";
-            Debugger_Options.Size = new Size(166, 24);
+            Debugger_Options.Size = new Size(160, 26);
             Debugger_Options.TabIndex = 12;
             Debugger_Options.Text = "Anti Debug / VM";
             Debugger_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -577,10 +670,11 @@
             Disable_Defender_Options.CheckedState.BorderRadius = 3;
             Disable_Defender_Options.CheckedState.BorderThickness = 0;
             Disable_Defender_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Disable_Defender_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Disable_Defender_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Disable_Defender_Options.ForeColor = Color.White;
             Disable_Defender_Options.Location = new Point(13, 224);
             Disable_Defender_Options.Name = "Disable_Defender_Options";
-            Disable_Defender_Options.Size = new Size(230, 24);
+            Disable_Defender_Options.Size = new Size(248, 26);
             Disable_Defender_Options.TabIndex = 10;
             Disable_Defender_Options.Text = "Disable Windows Defender";
             Disable_Defender_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -597,10 +691,11 @@
             _error_thiefcat.CheckedState.BorderRadius = 3;
             _error_thiefcat.CheckedState.BorderThickness = 0;
             _error_thiefcat.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            _error_thiefcat.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            _error_thiefcat.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            _error_thiefcat.ForeColor = Color.White;
             _error_thiefcat.Location = new Point(13, 254);
             _error_thiefcat.Name = "_error_thiefcat";
-            _error_thiefcat.Size = new Size(160, 24);
+            _error_thiefcat.Size = new Size(164, 26);
             _error_thiefcat.TabIndex = 9;
             _error_thiefcat.Text = "Add a fake Error";
             _error_thiefcat.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -617,10 +712,11 @@
             Startup_Options.CheckedState.BorderRadius = 3;
             Startup_Options.CheckedState.BorderThickness = 0;
             Startup_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Startup_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Startup_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Startup_Options.ForeColor = Color.White;
             Startup_Options.Location = new Point(13, 285);
             Startup_Options.Name = "Startup_Options";
-            Startup_Options.Size = new Size(173, 24);
+            Startup_Options.Size = new Size(173, 26);
             Startup_Options.TabIndex = 8;
             Startup_Options.Text = "Add file to sartup";
             Startup_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -637,10 +733,11 @@
             Hide_Options.CheckedState.BorderRadius = 3;
             Hide_Options.CheckedState.BorderThickness = 0;
             Hide_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Hide_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Hide_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Hide_Options.ForeColor = Color.White;
             Hide_Options.Location = new Point(13, 315);
             Hide_Options.Name = "Hide_Options";
-            Hide_Options.Size = new Size(266, 24);
+            Hide_Options.Size = new Size(275, 26);
             Hide_Options.TabIndex = 7;
             Hide_Options.Text = "Hide Astral console for victim";
             Hide_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -657,10 +754,11 @@
             InjectBrowsers_Options.CheckedState.BorderRadius = 3;
             InjectBrowsers_Options.CheckedState.BorderThickness = 0;
             InjectBrowsers_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            InjectBrowsers_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            InjectBrowsers_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            InjectBrowsers_Options.ForeColor = Color.White;
             InjectBrowsers_Options.Location = new Point(13, 345);
             InjectBrowsers_Options.Name = "InjectBrowsers_Options";
-            InjectBrowsers_Options.Size = new Size(205, 24);
+            InjectBrowsers_Options.Size = new Size(213, 26);
             InjectBrowsers_Options.TabIndex = 6;
             InjectBrowsers_Options.Text = "Inject into all Broswer";
             InjectBrowsers_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -677,10 +775,11 @@
             InjectDiscord_Options.CheckedState.BorderRadius = 3;
             InjectDiscord_Options.CheckedState.BorderThickness = 0;
             InjectDiscord_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            InjectDiscord_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            InjectDiscord_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            InjectDiscord_Options.ForeColor = Color.White;
             InjectDiscord_Options.Location = new Point(13, 375);
             InjectDiscord_Options.Name = "InjectDiscord_Options";
-            InjectDiscord_Options.Size = new Size(236, 24);
+            InjectDiscord_Options.Size = new Size(244, 26);
             InjectDiscord_Options.TabIndex = 5;
             InjectDiscord_Options.Text = "Inject in all Discord Client";
             InjectDiscord_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -697,10 +796,11 @@
             KillDiscord_Options.CheckedState.BorderRadius = 3;
             KillDiscord_Options.CheckedState.BorderThickness = 0;
             KillDiscord_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            KillDiscord_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            KillDiscord_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            KillDiscord_Options.ForeColor = Color.White;
             KillDiscord_Options.Location = new Point(13, 165);
             KillDiscord_Options.Name = "KillDiscord_Options";
-            KillDiscord_Options.Size = new Size(227, 24);
+            KillDiscord_Options.Size = new Size(235, 26);
             KillDiscord_Options.TabIndex = 4;
             KillDiscord_Options.Text = "Kill victim Discord Client";
             KillDiscord_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -714,7 +814,7 @@
             B64_WBH_STR.Animated = true;
             B64_WBH_STR.BorderColor = Color.FromArgb(49, 49, 49);
             B64_WBH_STR.BorderRadius = 6;
-            B64_WBH_STR.CustomizableEdges = customizableEdges27;
+            B64_WBH_STR.CustomizableEdges = customizableEdges29;
             B64_WBH_STR.DefaultText = "";
             B64_WBH_STR.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             B64_WBH_STR.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -730,7 +830,7 @@
             B64_WBH_STR.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             B64_WBH_STR.PlaceholderText = "Enter your webhook here";
             B64_WBH_STR.SelectedText = "";
-            B64_WBH_STR.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            B64_WBH_STR.ShadowDecoration.CustomizableEdges = customizableEdges30;
             B64_WBH_STR.Size = new Size(491, 36);
             B64_WBH_STR.TabIndex = 0;
             B64_WBH_STR.TextChanged += B64_WBH_STR_TextChanged;
@@ -762,10 +862,11 @@
             CryptoReplacer_Options.CheckedState.BorderRadius = 3;
             CryptoReplacer_Options.CheckedState.BorderThickness = 0;
             CryptoReplacer_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            CryptoReplacer_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            CryptoReplacer_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            CryptoReplacer_Options.ForeColor = Color.White;
             CryptoReplacer_Options.Location = new Point(53, 11);
             CryptoReplacer_Options.Name = "CryptoReplacer_Options";
-            CryptoReplacer_Options.Size = new Size(472, 24);
+            CryptoReplacer_Options.Size = new Size(501, 26);
             CryptoReplacer_Options.TabIndex = 12;
             CryptoReplacer_Options.Text = "Replace all copied crypto address wallet by your address";
             CryptoReplacer_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -779,7 +880,7 @@
             DASH_address_Options.Animated = true;
             DASH_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             DASH_address_Options.BorderRadius = 6;
-            DASH_address_Options.CustomizableEdges = customizableEdges29;
+            DASH_address_Options.CustomizableEdges = customizableEdges31;
             DASH_address_Options.DefaultText = "";
             DASH_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             DASH_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -795,7 +896,7 @@
             DASH_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             DASH_address_Options.PlaceholderText = "Your Dash Address";
             DASH_address_Options.SelectedText = "";
-            DASH_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            DASH_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges32;
             DASH_address_Options.Size = new Size(543, 36);
             DASH_address_Options.TabIndex = 11;
             DASH_address_Options.TextChanged += DASH_address_Options_TextChanged;
@@ -805,7 +906,7 @@
             ADA_address_Options.Animated = true;
             ADA_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             ADA_address_Options.BorderRadius = 6;
-            ADA_address_Options.CustomizableEdges = customizableEdges31;
+            ADA_address_Options.CustomizableEdges = customizableEdges33;
             ADA_address_Options.DefaultText = "";
             ADA_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             ADA_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -821,7 +922,7 @@
             ADA_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             ADA_address_Options.PlaceholderText = "Your Ada/Cardano Address";
             ADA_address_Options.SelectedText = "";
-            ADA_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            ADA_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges34;
             ADA_address_Options.Size = new Size(543, 36);
             ADA_address_Options.TabIndex = 10;
             ADA_address_Options.TextChanged += ADA_address_Options_TextChanged;
@@ -831,7 +932,7 @@
             MONERO_address_Options.Animated = true;
             MONERO_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             MONERO_address_Options.BorderRadius = 6;
-            MONERO_address_Options.CustomizableEdges = customizableEdges33;
+            MONERO_address_Options.CustomizableEdges = customizableEdges35;
             MONERO_address_Options.DefaultText = "";
             MONERO_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             MONERO_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -847,7 +948,7 @@
             MONERO_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             MONERO_address_Options.PlaceholderText = "Your Monero Address";
             MONERO_address_Options.SelectedText = "";
-            MONERO_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            MONERO_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges36;
             MONERO_address_Options.Size = new Size(543, 36);
             MONERO_address_Options.TabIndex = 9;
             MONERO_address_Options.TextChanged += MONERO_address_Options_TextChanged;
@@ -857,7 +958,7 @@
             CCHAIN_address_Options.Animated = true;
             CCHAIN_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             CCHAIN_address_Options.BorderRadius = 6;
-            CCHAIN_address_Options.CustomizableEdges = customizableEdges35;
+            CCHAIN_address_Options.CustomizableEdges = customizableEdges37;
             CCHAIN_address_Options.DefaultText = "";
             CCHAIN_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             CCHAIN_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -873,7 +974,7 @@
             CCHAIN_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             CCHAIN_address_Options.PlaceholderText = "Your C-Chain Address";
             CCHAIN_address_Options.SelectedText = "";
-            CCHAIN_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            CCHAIN_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges38;
             CCHAIN_address_Options.Size = new Size(543, 36);
             CCHAIN_address_Options.TabIndex = 8;
             CCHAIN_address_Options.TextChanged += CCHAIN_address_Options_TextChanged;
@@ -883,7 +984,7 @@
             PACHAIN_address_Options.Animated = true;
             PACHAIN_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             PACHAIN_address_Options.BorderRadius = 6;
-            PACHAIN_address_Options.CustomizableEdges = customizableEdges37;
+            PACHAIN_address_Options.CustomizableEdges = customizableEdges39;
             PACHAIN_address_Options.DefaultText = "";
             PACHAIN_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             PACHAIN_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -899,7 +1000,7 @@
             PACHAIN_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             PACHAIN_address_Options.PlaceholderText = "Your P-Chain Address";
             PACHAIN_address_Options.SelectedText = "";
-            PACHAIN_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            PACHAIN_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges40;
             PACHAIN_address_Options.Size = new Size(543, 36);
             PACHAIN_address_Options.TabIndex = 7;
             PACHAIN_address_Options.TextChanged += PACHAIN_address_Options_TextChanged;
@@ -909,7 +1010,7 @@
             _XCHAIN_address_Options.Animated = true;
             _XCHAIN_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             _XCHAIN_address_Options.BorderRadius = 6;
-            _XCHAIN_address_Options.CustomizableEdges = customizableEdges39;
+            _XCHAIN_address_Options.CustomizableEdges = customizableEdges41;
             _XCHAIN_address_Options.DefaultText = "";
             _XCHAIN_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             _XCHAIN_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -925,7 +1026,7 @@
             _XCHAIN_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             _XCHAIN_address_Options.PlaceholderText = "Your X-Chain Address";
             _XCHAIN_address_Options.SelectedText = "";
-            _XCHAIN_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            _XCHAIN_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges42;
             _XCHAIN_address_Options.Size = new Size(543, 36);
             _XCHAIN_address_Options.TabIndex = 6;
             _XCHAIN_address_Options.TextChanged += _XCHAIN_address_Options_TextChanged;
@@ -935,7 +1036,7 @@
             _ETH_address_Options.Animated = true;
             _ETH_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             _ETH_address_Options.BorderRadius = 6;
-            _ETH_address_Options.CustomizableEdges = customizableEdges41;
+            _ETH_address_Options.CustomizableEdges = customizableEdges43;
             _ETH_address_Options.DefaultText = "";
             _ETH_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             _ETH_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -951,7 +1052,7 @@
             _ETH_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             _ETH_address_Options.PlaceholderText = "Your Ethereum Address";
             _ETH_address_Options.SelectedText = "";
-            _ETH_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            _ETH_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges44;
             _ETH_address_Options.Size = new Size(543, 36);
             _ETH_address_Options.TabIndex = 5;
             _ETH_address_Options.TextChanged += _ETH_address_Options_TextChanged;
@@ -961,7 +1062,7 @@
             BTC_address_Options.Animated = true;
             BTC_address_Options.BorderColor = Color.FromArgb(49, 49, 49);
             BTC_address_Options.BorderRadius = 6;
-            BTC_address_Options.CustomizableEdges = customizableEdges43;
+            BTC_address_Options.CustomizableEdges = customizableEdges45;
             BTC_address_Options.DefaultText = "";
             BTC_address_Options.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             BTC_address_Options.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -977,7 +1078,7 @@
             BTC_address_Options.PlaceholderForeColor = Color.FromArgb(90, 90, 90);
             BTC_address_Options.PlaceholderText = "Your Bitcoin Address";
             BTC_address_Options.SelectedText = "";
-            BTC_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            BTC_address_Options.ShadowDecoration.CustomizableEdges = customizableEdges46;
             BTC_address_Options.Size = new Size(543, 36);
             BTC_address_Options.TabIndex = 4;
             BTC_address_Options.TextChanged += BTC_address_Options_TextChanged;
@@ -985,6 +1086,7 @@
             // tabPage3
             // 
             tabPage3.BackColor = Color.FromArgb(36, 36, 36);
+            tabPage3.Controls.Add(label18);
             tabPage3.Controls.Add(_GetBrowsers_Options);
             tabPage3.Controls.Add(AntiVirus_Options);
             tabPage3.Controls.Add(_Games_Options);
@@ -1003,6 +1105,17 @@
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Option Of Steale";
             // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Arial Black", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label18.ForeColor = Color.White;
+            label18.Location = new Point(496, 415);
+            label18.Name = "label18";
+            label18.Size = new Size(138, 41);
+            label18.TabIndex = 17;
+            label18.Text = "///////////////";
+            // 
             // _GetBrowsers_Options
             // 
             _GetBrowsers_Options.Animated = true;
@@ -1011,10 +1124,11 @@
             _GetBrowsers_Options.CheckedState.BorderRadius = 3;
             _GetBrowsers_Options.CheckedState.BorderThickness = 0;
             _GetBrowsers_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            _GetBrowsers_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            _GetBrowsers_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            _GetBrowsers_Options.ForeColor = Color.White;
             _GetBrowsers_Options.Location = new Point(38, 63);
             _GetBrowsers_Options.Name = "_GetBrowsers_Options";
-            _GetBrowsers_Options.Size = new Size(388, 24);
+            _GetBrowsers_Options.Size = new Size(408, 26);
             _GetBrowsers_Options.TabIndex = 16;
             _GetBrowsers_Options.Text = "Steal Browser Files (Coockies/Passwords/Etc)";
             _GetBrowsers_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1031,10 +1145,11 @@
             AntiVirus_Options.CheckedState.BorderRadius = 3;
             AntiVirus_Options.CheckedState.BorderThickness = 0;
             AntiVirus_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            AntiVirus_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            AntiVirus_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            AntiVirus_Options.ForeColor = Color.White;
             AntiVirus_Options.Location = new Point(38, 94);
             AntiVirus_Options.Name = "AntiVirus_Options";
-            AntiVirus_Options.Size = new Size(276, 24);
+            AntiVirus_Options.Size = new Size(280, 26);
             AntiVirus_Options.TabIndex = 15;
             AntiVirus_Options.Text = "Steal all anti virus information";
             AntiVirus_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1051,10 +1166,11 @@
             _Games_Options.CheckedState.BorderRadius = 3;
             _Games_Options.CheckedState.BorderThickness = 0;
             _Games_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            _Games_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            _Games_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            _Games_Options.ForeColor = Color.White;
             _Games_Options.Location = new Point(38, 127);
             _Games_Options.Name = "_Games_Options";
-            _Games_Options.Size = new Size(187, 24);
+            _Games_Options.Size = new Size(196, 26);
             _Games_Options.TabIndex = 14;
             _Games_Options.Text = "Steal all games files";
             _Games_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1071,10 +1187,11 @@
             Sys_Options.CheckedState.BorderRadius = 3;
             Sys_Options.CheckedState.BorderThickness = 0;
             Sys_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Sys_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Sys_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Sys_Options.ForeColor = Color.White;
             Sys_Options.Location = new Point(38, 157);
             Sys_Options.Name = "Sys_Options";
-            Sys_Options.Size = new Size(236, 24);
+            Sys_Options.Size = new Size(246, 26);
             Sys_Options.TabIndex = 13;
             Sys_Options.Text = "Steal systems information";
             Sys_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1091,10 +1208,11 @@
             Roblox_Options.CheckedState.BorderRadius = 3;
             Roblox_Options.CheckedState.BorderThickness = 0;
             Roblox_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Roblox_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Roblox_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Roblox_Options.ForeColor = Color.White;
             Roblox_Options.Location = new Point(38, 187);
             Roblox_Options.Name = "Roblox_Options";
-            Roblox_Options.Size = new Size(208, 24);
+            Roblox_Options.Size = new Size(214, 26);
             Roblox_Options.TabIndex = 12;
             Roblox_Options.Text = "Steal roblox app token";
             Roblox_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1111,10 +1229,11 @@
             Screen_Options.CheckedState.BorderRadius = 3;
             Screen_Options.CheckedState.BorderThickness = 0;
             Screen_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Screen_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Screen_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Screen_Options.ForeColor = Color.White;
             Screen_Options.Location = new Point(38, 217);
             Screen_Options.Name = "Screen_Options";
-            Screen_Options.Size = new Size(158, 24);
+            Screen_Options.Size = new Size(174, 26);
             Screen_Options.TabIndex = 11;
             Screen_Options.Text = "Takes screenshot";
             Screen_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1131,10 +1250,11 @@
             ClipBoard_Options.CheckedState.BorderRadius = 3;
             ClipBoard_Options.CheckedState.BorderThickness = 0;
             ClipBoard_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            ClipBoard_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            ClipBoard_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            ClipBoard_Options.ForeColor = Color.White;
             ClipBoard_Options.Location = new Point(38, 248);
             ClipBoard_Options.Name = "ClipBoard_Options";
-            ClipBoard_Options.Size = new Size(198, 24);
+            ClipBoard_Options.Size = new Size(207, 26);
             ClipBoard_Options.TabIndex = 10;
             ClipBoard_Options.Text = "Steal latest clipboard";
             ClipBoard_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1151,10 +1271,11 @@
             Wifi_Options.CheckedState.BorderRadius = 3;
             Wifi_Options.CheckedState.BorderThickness = 0;
             Wifi_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Wifi_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Wifi_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Wifi_Options.ForeColor = Color.White;
             Wifi_Options.Location = new Point(38, 278);
             Wifi_Options.Name = "Wifi_Options";
-            Wifi_Options.Size = new Size(214, 24);
+            Wifi_Options.Size = new Size(225, 26);
             Wifi_Options.TabIndex = 9;
             Wifi_Options.Text = "Steal all wifi passwords";
             Wifi_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1171,10 +1292,11 @@
             _Found_Launcher.CheckedState.BorderRadius = 3;
             _Found_Launcher.CheckedState.BorderThickness = 0;
             _Found_Launcher.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            _Found_Launcher.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            _Found_Launcher.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            _Found_Launcher.ForeColor = Color.White;
             _Found_Launcher.Location = new Point(38, 308);
             _Found_Launcher.Name = "_Found_Launcher";
-            _Found_Launcher.Size = new Size(225, 24);
+            _Found_Launcher.Size = new Size(241, 26);
             _Found_Launcher.TabIndex = 8;
             _Found_Launcher.Text = "Steal all Games Launcher";
             _Found_Launcher.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1191,10 +1313,11 @@
             Telegram_Options.CheckedState.BorderRadius = 3;
             Telegram_Options.CheckedState.BorderThickness = 0;
             Telegram_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Telegram_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Telegram_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Telegram_Options.ForeColor = Color.White;
             Telegram_Options.Location = new Point(38, 338);
             Telegram_Options.Name = "Telegram_Options";
-            Telegram_Options.Size = new Size(208, 24);
+            Telegram_Options.Size = new Size(223, 26);
             Telegram_Options.TabIndex = 7;
             Telegram_Options.Text = "Steal Telegram Session";
             Telegram_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1211,10 +1334,11 @@
             Crypto_Options.CheckedState.BorderRadius = 3;
             Crypto_Options.CheckedState.BorderThickness = 0;
             Crypto_Options.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Crypto_Options.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            Crypto_Options.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic);
+            Crypto_Options.ForeColor = Color.White;
             Crypto_Options.Location = new Point(38, 365);
             Crypto_Options.Name = "Crypto_Options";
-            Crypto_Options.Size = new Size(325, 24);
+            Crypto_Options.Size = new Size(325, 26);
             Crypto_Options.TabIndex = 5;
             Crypto_Options.Text = "Steal Crypto Wallet (Extension/App)";
             Crypto_Options.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1226,6 +1350,7 @@
             // tabPage4
             // 
             tabPage4.BackColor = Color.FromArgb(36, 36, 36);
+            tabPage4.Controls.Add(label19);
             tabPage4.Controls.Add(label6);
             tabPage4.Controls.Add(label5);
             tabPage4.Controls.Add(label4);
@@ -1242,6 +1367,17 @@
             tabPage4.Size = new Size(640, 461);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Build";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Arial Black", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label19.ForeColor = Color.White;
+            label19.Location = new Point(496, 415);
+            label19.Name = "label19";
+            label19.Size = new Size(138, 41);
+            label19.TabIndex = 16;
+            label19.Text = "///////////////";
             // 
             // label6
             // 
@@ -1314,20 +1450,20 @@
             build_script.Animated = true;
             build_script.BorderRadius = 6;
             build_script.Cursor = Cursors.Hand;
-            build_script.CustomizableEdges = customizableEdges45;
+            build_script.CustomizableEdges = customizableEdges47;
             build_script.DisabledState.BorderColor = Color.DarkGray;
             build_script.DisabledState.CustomBorderColor = Color.DarkGray;
             build_script.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             build_script.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            build_script.FillColor = Color.FromArgb(90, 90, 90);
-            build_script.Font = new Font("MV Boli", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            build_script.FillColor = Color.BlueViolet;
+            build_script.Font = new Font("Arial Black", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             build_script.ForeColor = Color.White;
             build_script.Location = new Point(215, 322);
             build_script.Name = "build_script";
-            build_script.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            build_script.ShadowDecoration.CustomizableEdges = customizableEdges48;
             build_script.Size = new Size(221, 69);
             build_script.TabIndex = 9;
-            build_script.Text = "Build Backdoor";
+            build_script.Text = "Build Payload";
             build_script.Click += build_script_Click;
             // 
             // guna2TrackBar1
@@ -1346,10 +1482,11 @@
             compil.CheckedState.BorderRadius = 3;
             compil.CheckedState.BorderThickness = 0;
             compil.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            compil.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            compil.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            compil.ForeColor = Color.White;
             compil.Location = new Point(35, 117);
             compil.Name = "compil";
-            compil.Size = new Size(333, 24);
+            compil.Size = new Size(321, 26);
             compil.TabIndex = 6;
             compil.Text = "Compil into .exe (Let Empty for .py)";
             compil.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1366,10 +1503,11 @@
             encryption.CheckedState.BorderRadius = 3;
             encryption.CheckedState.BorderThickness = 0;
             encryption.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            encryption.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
+            encryption.Font = new Font("Arial Black", 11.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            encryption.ForeColor = Color.White;
             encryption.Location = new Point(35, 47);
             encryption.Name = "encryption";
-            encryption.Size = new Size(195, 24);
+            encryption.Size = new Size(205, 26);
             encryption.TabIndex = 5;
             encryption.Text = "Obfuscate The Astral";
             encryption.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -1381,6 +1519,7 @@
             // tabPage5
             // 
             tabPage5.BackColor = Color.FromArgb(36, 36, 36);
+            tabPage5.Controls.Add(label20);
             tabPage5.Controls.Add(label14);
             tabPage5.Controls.Add(youtube);
             tabPage5.Controls.Add(twitch);
@@ -1398,6 +1537,17 @@
             tabPage5.Size = new Size(640, 461);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "About";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("Arial Black", 21.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label20.ForeColor = Color.White;
+            label20.Location = new Point(499, 417);
+            label20.Name = "label20";
+            label20.Size = new Size(138, 41);
+            label20.TabIndex = 28;
+            label20.Text = "///////////////";
             // 
             // label14
             // 
@@ -1423,7 +1573,7 @@
             youtube.ImageSize = new Size(64, 64);
             youtube.Location = new Point(214, 395);
             youtube.Name = "youtube";
-            youtube.ShadowDecoration.CustomizableEdges = customizableEdges47;
+            youtube.ShadowDecoration.CustomizableEdges = customizableEdges49;
             youtube.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             youtube.Size = new Size(64, 53);
             youtube.TabIndex = 26;
@@ -1442,7 +1592,7 @@
             twitch.ImageSize = new Size(64, 64);
             twitch.Location = new Point(145, 398);
             twitch.Name = "twitch";
-            twitch.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            twitch.ShadowDecoration.CustomizableEdges = customizableEdges50;
             twitch.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             twitch.Size = new Size(64, 53);
             twitch.TabIndex = 25;
@@ -1461,7 +1611,7 @@
             github.ImageSize = new Size(64, 64);
             github.Location = new Point(7, 394);
             github.Name = "github";
-            github.ShadowDecoration.CustomizableEdges = customizableEdges49;
+            github.ShadowDecoration.CustomizableEdges = customizableEdges51;
             github.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             github.Size = new Size(59, 60);
             github.TabIndex = 24;
@@ -1480,7 +1630,7 @@
             discord.ImageSize = new Size(64, 64);
             discord.Location = new Point(73, 398);
             discord.Name = "discord";
-            discord.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            discord.ShadowDecoration.CustomizableEdges = customizableEdges52;
             discord.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             discord.Size = new Size(64, 53);
             discord.TabIndex = 23;
@@ -1552,17 +1702,6 @@
             label8.TabIndex = 17;
             label8.Text = "Astral Stealer is a powerful stealer coded in Python/C#. Python is";
             // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Comic Sans MS", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.ForeColor = SystemColors.ControlLight;
-            label7.Location = new Point(12, 14);
-            label7.Name = "label7";
-            label7.Size = new Size(177, 30);
-            label7.TabIndex = 16;
-            label7.Text = "Astral - Builder";
-            // 
             // guna2CircleButton1
             // 
             guna2CircleButton1.Cursor = Cursors.Hand;
@@ -1570,12 +1709,12 @@
             guna2CircleButton1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2CircleButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2CircleButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2CircleButton1.FillColor = Color.Red;
+            guna2CircleButton1.FillColor = Color.BlueViolet;
             guna2CircleButton1.Font = new Font("Segoe UI", 9F);
             guna2CircleButton1.ForeColor = Color.White;
             guna2CircleButton1.Location = new Point(781, 15);
             guna2CircleButton1.Name = "guna2CircleButton1";
-            guna2CircleButton1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2CircleButton1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             guna2CircleButton1.Size = new Size(30, 30);
             guna2CircleButton1.TabIndex = 16;
@@ -1588,36 +1727,45 @@
             guna2CircleButton2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2CircleButton2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2CircleButton2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2CircleButton2.FillColor = Color.Yellow;
+            guna2CircleButton2.FillColor = Color.FromArgb(11, 66, 137);
             guna2CircleButton2.Font = new Font("Segoe UI", 9F);
-            guna2CircleButton2.ForeColor = Color.White;
+            guna2CircleButton2.ForeColor = Color.FromArgb(11, 66, 137);
             guna2CircleButton2.Location = new Point(740, 15);
             guna2CircleButton2.Name = "guna2CircleButton2";
-            guna2CircleButton2.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            guna2CircleButton2.ShadowDecoration.CustomizableEdges = customizableEdges3;
             guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             guna2CircleButton2.Size = new Size(30, 30);
             guna2CircleButton2.TabIndex = 17;
             guna2CircleButton2.Click += guna2CircleButton2_Click;
             // 
-            // Enable_icon
+            // pictureBox1
             // 
-            Enable_icon.Animated = true;
-            Enable_icon.AutoSize = true;
-            Enable_icon.CheckedState.BorderColor = Color.FromArgb(192, 0, 0);
-            Enable_icon.CheckedState.BorderRadius = 3;
-            Enable_icon.CheckedState.BorderThickness = 0;
-            Enable_icon.CheckedState.FillColor = Color.FromArgb(192, 0, 0);
-            Enable_icon.Font = new Font("MV Boli", 10.75F, FontStyle.Bold);
-            Enable_icon.Location = new Point(13, 93);
-            Enable_icon.Name = "Enable_icon";
-            Enable_icon.Size = new Size(115, 24);
-            Enable_icon.TabIndex = 27;
-            Enable_icon.Text = "Enable Icon";
-            Enable_icon.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
-            Enable_icon.UncheckedState.BorderRadius = 3;
-            Enable_icon.UncheckedState.BorderThickness = 0;
-            Enable_icon.UncheckedState.FillColor = Color.FromArgb(125, 137, 149);
-            Enable_icon.CheckedChanged += Enable_icon_CheckedChanged;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, -2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(330, 58);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
+            // 
+            // Switch_cinna_theme
+            // 
+            Switch_cinna_theme.BorderRadius = 11;
+            Switch_cinna_theme.CustomizableEdges = customizableEdges1;
+            Switch_cinna_theme.DisabledState.BorderColor = Color.DarkGray;
+            Switch_cinna_theme.DisabledState.CustomBorderColor = Color.DarkGray;
+            Switch_cinna_theme.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            Switch_cinna_theme.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            Switch_cinna_theme.FillColor = Color.FromArgb(43, 43, 43);
+            Switch_cinna_theme.Font = new Font("MV Boli", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Switch_cinna_theme.ForeColor = Color.White;
+            Switch_cinna_theme.Location = new Point(336, 2);
+            Switch_cinna_theme.Name = "Switch_cinna_theme";
+            Switch_cinna_theme.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            Switch_cinna_theme.Size = new Size(143, 54);
+            Switch_cinna_theme.TabIndex = 18;
+            Switch_cinna_theme.Text = "Switch To Cinna Theme";
+            Switch_cinna_theme.Click += Switch_cinna_theme_Click;
             // 
             // Form1
             // 
@@ -1625,15 +1773,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(32, 32, 32);
             ClientSize = new Size(828, 531);
+            Controls.Add(Switch_cinna_theme);
+            Controls.Add(pictureBox1);
             Controls.Add(guna2CircleButton2);
             Controls.Add(guna2CircleButton1);
-            Controls.Add(label7);
             Controls.Add(guna2TabControl1);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Form1";
             guna2TabControl1.ResumeLayout(false);
+            tabPage6.ResumeLayout(false);
+            tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
             tabPage2.ResumeLayout(false);
@@ -1644,8 +1796,8 @@
             tabPage4.PerformLayout();
             tabPage5.ResumeLayout(false);
             tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -1699,7 +1851,6 @@
         private Guna.UI2.WinForms.Guna2CheckBox encryption;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private Label label7;
         private Guna.UI2.WinForms.Guna2CheckBox _Found_Launcher;
         private Label label8;
         private Label label11;
@@ -1726,5 +1877,15 @@
         private Guna.UI2.WinForms.Guna2TextBox LinkToIcon;
         private Guna.UI2.WinForms.Guna2TextBox ExeNameOutput;
         private Guna.UI2.WinForms.Guna2CheckBox Enable_icon;
+        private TabPage tabPage6;
+        private Label label16;
+        private Label label17;
+        private PictureBox pictureBox2;
+        private Label label18;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2Button Switch_cinna_theme;
     }
 }

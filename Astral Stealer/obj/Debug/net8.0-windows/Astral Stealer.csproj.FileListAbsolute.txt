@@ -30,3 +30,28 @@ G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Guna.UI2.dll
 G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\Newtonsoft.Json.dll
 G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\System.Management.dll
 G:\Project C#\Astral Stealer\Astral Stealer\Astral-Stealer-v1.5\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.csproj.AssemblyReference.cache
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\refint\Astral Stealer.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.pdb
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\Astral Stealer.exe
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\Astral Stealer.deps.json
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\Astral Stealer.runtimeconfig.json
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\Astral Stealer.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\Astral Stealer.pdb
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral_Stealer.Form1.resources
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral_Stealer.Properties.Resources.resources
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.csproj.GenerateResource.cache
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.AssemblyInfoInputs.cache
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.AssemblyInfo.cs
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.csproj.CoreCompileInputs.cache
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral S.D7BCD407.Up2Date
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral Stealer.genruntimeconfig.cache
+C:\Users\matis\Desktop\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\ref\Astral Stealer.dll
+G:\Project C#\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral_Stealer.FormHelloKitty.resources
+G:\Project C#\Astral Stealer\Astral Stealer\obj\Debug\net8.0-windows\Astral_Stealer.FormObfHelloKitty.resources

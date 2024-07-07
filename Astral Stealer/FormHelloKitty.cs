@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Astral_Stealer
 {
-    public partial class Form1 : Form
+    public partial class FormHelloKitty : Form
     {
         private bool enableIcon = false;
         private string exeFileName = "output";
@@ -3132,7 +3132,7 @@ if __name__ == ""__main__"" and os.name == ""nt"":
     autoo = threading.Thread(target=Replacer_Loop().run)
     autoo.start()";
 
-        public Form1()
+        public FormHelloKitty()
         {
             InitializeComponent();
         }
@@ -3445,7 +3445,7 @@ if __name__ == ""__main__"" and os.name == ""nt"":
 
         private void guna2CircleButton1_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
 
         private void UpdatePythonCode(string optionName, string value)
@@ -3684,16 +3684,21 @@ VSVersionInfo(
             enableIcon = Enable_icon.Checked;
         }
 
-        private void Switch_cinna_theme_Click(object sender, EventArgs e)
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            // Créez une instance de FormHelloKitty
-            FormHelloKitty helloKittyForm = new FormHelloKitty();
+            this.Close();
+        }
 
-            // Affichez FormHelloKitty
-            helloKittyForm.Show();
+        private void Switch_normal_theme_Click(object sender, EventArgs e)
+        {
+            // Créez une instance de Form1
+            Form1 Form1 = new Form1();
 
-            // Fermez Form1
-            Hide();
+            // Affichez Form1
+            Form1.Show();
+
+            // Fermez FormHelloKitty
+            Close();
         }
     }
 }
