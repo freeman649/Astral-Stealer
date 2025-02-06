@@ -3,7 +3,9 @@
   Astral Stealer
 </h1>
 
-#### The project will not be updated but I made a better stealer in golang [Thief Cat](https://github.com/freeman649/Thief-Cat)
+<h1 align="center">
+  The project will not be updated but I made a better stealer in golang [Thief Cat](https://github.com/freeman649/Thief-Cat)
+</h1>
 
 ##### [Join for premium](https://discord.gg/bFYcmjbFdw)
 
